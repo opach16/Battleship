@@ -5,4 +5,6 @@ module com.kodilla.battleship {
 
     opens com.kodilla.battleship to javafx.fxml;
     exports com.kodilla.battleship;
+    exports com.kodilla.battleship.players;
+    opens com.kodilla.battleship.players to javafx.fxml;
 }
